@@ -1,9 +1,9 @@
-# Vivado generated folders
-comparator_4bit/comparator_4bit.cache/
-comparator_4bit/comparator_4bit.hw/
-comparator_4bit/comparator_4bit.ip_user_files/
-comparator_4bit/comparator_4bit.runs/
-comparator_4bit/comparator_4bit.sim/
+# Vivado generated folders (matches any project)
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
 
 # Vivado / Xilinx transient files
 **/.Xil/
