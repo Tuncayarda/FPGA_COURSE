@@ -1,0 +1,78 @@
+# =========================
+# Vivado / Xilinx
+# =========================
+
+# Generated project folders
+**/*.cache/
+**/*.gen/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
+**/*.tmp/
+
+# Xilinx transient folders
+**/.Xil/
+**/*.Xil/
+
+# Logs / reports / temp files
+**/*.jou
+**/*.log
+**/*.pb
+**/*.str
+**/*.backup
+**/*~
+
+# Simulation / waveform / debug files
+**/xsim.dir/
+**/webtalk/
+**/*.wdb
+**/*.wdf
+**/*.wpc
+**/*.wcfg
+**/*.vcd
+
+# Bitstream / output artifacts
+**/*.bit
+**/*.bin
+**/*.mcs
+**/*.prm
+**/*.ltx
+**/*.dcp
+
+# Optional old SDK / Vitis leftovers
+**/*.sdk/
+**/*.ipcache/
+**/*.export/
+
+# =========================
+# OS files
+# =========================
+**/.DS_Store
+**/Thumbs.db
+
+# =========================
+# Editor / IDE files
+# =========================
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+
+# =========================
+# Keep source files
+# =========================
+!**/*.v
+!**/*.sv
+!**/*.vh
+!**/*.svh
+!**/*.vhd
+!**/*.xdc
+!**/*.xci
+!**/*.bd
+!**/*.tcl
+!**/*.xpr
+!**/src/**
+!**/sources_1/**
+!**/sim_1/**
+!**/constrs_1/**
